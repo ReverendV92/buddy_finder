@@ -1,0 +1,90 @@
+
+$Sequence "idle" {
+	"v_buddyfinder_anims\idle.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$Sequence "dial_in" {
+	"v_buddyfinder_anims\dial_in.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "dial_out" {
+	"v_buddyfinder_anims\dial_out.smd"
+	activity "ACT_VM_PRIMARYATTACK_1" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "accept_in" {
+	"v_buddyfinder_anims\accept_in.smd"
+	activity "ACT_VM_PRIMARYATTACK_2" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "accept_out" {
+	"v_buddyfinder_anims\accept_out.smd"
+	activity "ACT_VM_PRIMARYATTACK_3" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "deny_in" {
+	"v_buddyfinder_anims\deny_in.smd"
+	activity "ACT_VM_PRIMARYATTACK_4" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "deny_out" {
+	"v_buddyfinder_anims\deny_out.smd"
+	activity "ACT_VM_PRIMARYATTACK_5" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "beam_in" {
+	"v_buddyfinder_anims\beam_in.smd"
+	activity "ACT_VM_PRIMARYATTACK_6" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$Sequence "beam_idle" {
+	"v_buddyfinder_anims\beam_idle.smd"
+	activity "ACT_VM_PRIMARYATTACK_7" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$Sequence "beam_out" {
+	"v_buddyfinder_anims\beam_out.smd"
+	activity "ACT_VM_PRIMARYATTACK_8" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
